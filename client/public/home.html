@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - JobTracker | AI-Powered Resume Analyzer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+  <div class="bg-shapes">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="chatbot-container">
+        <header class="chatbot-header">
+            <h2>🤖 Job & Resume Helper</h2>
+            <p>Ask me anything about jobs or your resume!</p>
+        </header>
+
+        <div class="chat-messages" id="chat-area">
+            <div class="message bot-message">
+                <p>Hello! I'm your AI career assistant. How can I help you today with your resume or job search?</p>
+            </div>
+        </div>
+
+        <form class="chat-input-form" id="input-form">
+            <input type="text" id="user-input" placeholder="Type your question..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+  <nav class="navbar">
+    <div class="logo">
+      <i class="fas fa-briefcase"></i>
+      NextHire
+    </div>
+    
+    <div class="mobile-toggle" id="mobileToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#jobs">Jobs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+    <div class="nav-buttons">
+      <a href="index.html" class="btn login">
+        <i class="fas fa-sign-in-alt"></i> Login
+      </a>
+      <a href="signup.html" class="btn signup">
+        <i class="fas fa-user-plus"></i> Sign Up
+      </a>
+    </div>
+  </nav>
+
+  <section class="hero hero-1" id="home">
+    <div class="hero-content">
+      <div class="hero-text fade-in-left">
+        <span class="hero-badge">
+          <i class="fas fa-star"></i> #1 AI Resume Analyzer
+        </span>
+        <h1>Track Your Jobs & <span class="gradient-text">Boost Your Career</span></h1>
+        <p>AI-powered Resume Analyzer & Job Tracker that helps you land your dream job faster. Get instant feedback, optimize for ATS, and track applications all in one place.</p>
+        
+        <div class="hero-buttons">
+          <a href="signup.html" class="btn btn-primary">
+            Get Started <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#features" class="btn btn-secondary">
+            <i class="fas fa-play-circle"></i> Watch Demo
+          </a>
+        </div>
+        
+        <div class="hero-stats">
+          <div class="stat">
+            <h3>10K+</h3>
+            <p>Users</p>
+          </div>
+          <div class="stat">
+            <h3>50K+</h3>
+            <p>Resumes Analyzed</p>
+          </div>
+          <div class="stat">
+            <h3>95%</h3>
+            <p>Success Rate</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-image fade-in-right">
+        <div class="image-wrapper">
+          <img src="../assets/luca-bravo-9l_326FISzk-unsplash.jpg" alt="AI Resume Analysis" onerror="this.src='https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600'">
+          <div class="floating-card card-1">
+            <i class="fas fa-check-circle"></i>
+            <p>ATS Optimized</p>
+          </div>
+          <div class="floating-card card-2">
+            <i class="fas fa-star"></i>
+            <p>95% Match Rate</p>
+          </div>
+          <div class="floating-card card-3">
+            <i class="fas fa-rocket"></i>
+            <p>Fast Results</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero hero-2">
+    <div class="hero-content reverse">
+      <div class="hero-image fade-in-left">
+        <div class="image-wrapper">
+          <img src="../assets/Screenshot 2025-12-05 045538.png" alt="Job Tracking Dashboard" onerror="this.src='https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600'">
+          <div class="dashboard-preview">
+            <div class="preview-card">
+              <i class="fas fa-briefcase"></i>
+              <div>
+                <h4>35</h4>
+                <p>Jobs Applied</p>
+              </div>
+            </div>
+            <div class="preview-card">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>12</h4>
+                <p>Interviews</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-text fade-in-right">
+        <span class="hero-badge">
+          <i class="fas fa-chart-line"></i> Smart Tracking
+        </span>
+        <h2>Never Lose Track of Your <span class="gradient-text">Job Applications</span></h2>
+        <p>Organize all your job applications in one intuitive dashboard. Track application status, set reminders, add notes, and get AI-powered insights to improve your success rate.</p>
+        
+        <ul class="feature-list">
+          <li>
+            <i class="fas fa-check"></i>
+            <span>Real-time application tracking</span>
+          </li>
+          <li>
+            <i class="fas fa-check"></i>
+            <span>Automated reminders & notifications</span>
+          </li>
+          <li>
+            <i class="fas fa-check"></i>
+            <span>Interview preparation resources</span>
+          </li>
+          <li>
+            <i class="fas fa-check"></i>
+            <span>Success analytics & insights</span>
+          </li>
+        </ul>
+        
+        <a href="#" class="btn btn-primary">
+          View Dashboard <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="section-header">
+      <span class="section-badge">Why Choose Us</span>
+      <h2>Powerful Features to <span class="gradient-text">Accelerate Your Career</span></h2>
+      <p>Everything you need to land your dream job, all in one platform</p>
+    </div>
+    
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-robot"></i>
+        </div>
+        <h3>AI-Powered Analysis</h3>
+        <p>Get instant feedback on your resume with our advanced AI engine. Optimize for ATS and improve your chances of getting noticed.</p>
+        <a href="#" class="feature-link">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+      
+      <div class="feature-card featured">
+        <div class="popular-badge">Most Popular</div>
+        <div class="feature-icon">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <h3>Job Application Tracker</h3>
+        <p>Manage all your applications in one place. Track status, set reminders, and never miss an opportunity.</p>
+        <a href="#" class="feature-link">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-file-alt"></i>
+        </div>
+        <h3>Resume Templates</h3>
+        <p>Access professional, ATS-friendly resume templates designed to get you hired.</p>
+        <a href="#" class="feature-link">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <h3>Job Search</h3>
+        <p>Find relevant job openings from multiple sources, all aggregated in one convenient location.</p>
+        <a href="#" class="feature-link">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="section-header">
+      <span class="section-badge">Testimonials</span>
+      <h2>What Our <span class="gradient-text">Users Say</span></h2>
+      <p>Join thousands of professionals who've transformed their job search</p>
+    </div>
+    
+    <div class="loader-container" id="reviewLoader">
+      <div class="spinner"></div>
+      <p>Loading reviews...</p>
+    </div>
+    
+    <div class="review-cards" id="reviewCards" style="display: none;">
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2>Ready to Transform Your Job Search?</h2>
+      <p>Join thousands of professionals who've already landed their dream jobs</p>
+      <div class="cta-buttons">
+        <a href="signup.html" class="btn btn-white">
+          Get Started Free <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          Contact Sales <i class="fas fa-phone"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>
+          <i class="fas fa-briefcase"></i>
+          JobTracker
+        </h3>
+        <p>AI-powered career acceleration platform helping professionals land their dream jobs.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Resume Analyzer</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 JobTracker. All rights reserved. Made with <i class="fas fa-heart"></i> for job seekers worldwide.</p>
+    </div>
+  </footer>
+<script src="https://unpkg.com/rivescript@2.2.0/dist/rivescript.min.js"></script>
+  <script src="../js/home.js"></script>
+    <script src="../js/rivescript.js"></script>
+
+</body>
+</html>

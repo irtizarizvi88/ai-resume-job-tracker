@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Luxury CEO Resume</title>
+<style>
+body {
+  background: #000;
+  font-family: Georgia, serif;
+}
+.resume {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #111;
+  color: #e5c07b;
+  padding: 45px;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.8);
+}
+h1 {
+  font-size: 36px;
+  border-bottom: 2px solid gold;
+  padding-bottom: 10px;
+}
+.section {
+  margin-top: 25px;
+}
+.section h2 {
+  color: gold;
+  font-size: 18px;
+}
+p {
+  color: #ddd;
+  line-height: 1.6;
+}
+.skills span {
+  display: inline-block;
+  border: 1px solid gold;
+  padding: 6px 12px;
+  border-radius: 15px;
+  margin: 4px;
+  color: gold;
+}
+</style>
+</head>
+<body>
+<div class="resume">
+  <h1>{{name}}</h1>
+  <p>Email: {{email}} | Phone: {{phone}}</p>
+
+  <div class="section">
+    <h2>Experience</h2>
+    <p>{{experience}}</p>
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <p>{{education}}</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <div class="skills">{{skills}}</div>
+  </div>
+</div>
+</body>
+</html>
